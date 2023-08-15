@@ -1,0 +1,191 @@
+/* style.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8E06A8;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.logo img {
+    max-width: 130px; /* Ajuste o tamanho da logo conforme necessário */
+    height: auto;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.red-text {
+    color: red;
+}
+
+.purple-text {
+    color: purple;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.green-text {
+    color: green;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.39);
+    animation: fadeInUp 1s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.09);
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #8E06A8;
+    color: #fff;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#notices {
+    margin-top: 2rem;
+}
+
+.notice {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.notice h3 {
+    font-weight: bold;
+    color: #8E06A8;
+}
+
+.notice p {
+    margin-top: 0.5rem;
+    color: #333;
+}
+
+.notice:hover {
+    transform: translateY(-3px);
+}
+
+/* Estilos para a barra lateral */
+/* Estilos para a barra lateral */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; /* Tamanho reduzido */
+    height: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+    padding-top: 2rem;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin: 4rem 0; /* Espaçamento vertical menor */
+    padding: 0 1rem;
+    position: relative; /* Para ajustar a posição dos marcadores */
+}
+
+.sidebar li::before {
+    content: "•"; /* Símbolo de marcador redondo */
+    color: #FF69B4; /* Cor rosa */
+    position: absolute;
+    left: 15px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    color: #8E06A8;
+}
+.button-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.purple-button {
+    background-color: #8E06A8; /* Cor roxa do seu cabeçalho */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+#under-construction {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.39);
+}
+
+#under-construction h2 {
+    color: #8E06A8; /* Cor roxa do cabeçalho */
+}
+
+#under-construction p {
+    font-style: italic;
+}
