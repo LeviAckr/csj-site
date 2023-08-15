@@ -27,7 +27,7 @@ O Servidor CSJ é uma comunidade dedicada a entusiastas de programação e desen
 
 ## Acesso ao Site
 
-Visite o [Site do Servidor CSJ](https://csj-server.netlify.app/) para explorar nosso conteúdo e fazer parte de nossa comunidade!
+Visite o [Site do Servidor CSJ](https://csj-servidor.netlify.app/) para explorar nosso conteúdo e fazer parte de nossa comunidade!
 
 ## Contato
 
