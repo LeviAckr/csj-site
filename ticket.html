@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Tickets</title>
+  <link rel="stylesheet" href="css/ticket.css">
+</head>
+<body>
+  <section id="ticketForm">
+    <h2>Criar um Novo Ticket</h2>
+    <label for="ticketType">Selecione o Tipo de Ticket:</label>
+    <select id="ticketType">
+      <option value="ajudaServidor">Ajuda Servidor</option>
+      <option value="ajudaProgramacao">Ajuda Programação</option>
+      <option value="helpTI">Help TI</option>
+    </select>
+
+    <div id="ticketDetails" style="display: none;">
+      <label for="userName">Seu Nome:</label>
+      <input type="text" id="userName">
+
+      <label for="issueDetails">Detalhes do Problema:</label>
+      <textarea id="issueDetails"></textarea>
+
+      <label for="discordName">Nome no Discord:</label>
+      <input type="text" id="discordName">
+
+      <button id="submitTicket">Enviar Ticket</button>
+    </div>
+
+    <div id="successMessage" style="display: none;">
+      <p>Seu ticket foi enviado com sucesso! Aguarde nosso contato.</p>
+    </div>
+    
+    <!-- Adicionado um botão para limpar os tickets -->
+    <button id="clearTickets">Limpar Todos os Tickets</button>
+    
+    <!-- Botão para voltar para a home -->
+    <a href="index.html" class="back-to-home">Voltar para a Home</a>
+  </section>
+
+  <!-- ... (seu HTML existente) ... -->
+
+  <script src="src/ticket.js"></script>
+</body>
+</html>

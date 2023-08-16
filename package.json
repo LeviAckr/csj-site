@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "discord.js": "^14.12.1",
+    "fs": "^0.0.1-security"
+  },
+  "name": "n",
+  "description": "Bem-vindo ao repositório do site do Servidor CSJ - Crie seus Jogos Brasil! Este repositório contém o código-fonte e os recursos do site.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

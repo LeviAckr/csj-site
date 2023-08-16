@@ -1,0 +1,30 @@
+/* Estilizando o cursor do mouse e a cor do título do artigo */
+.article-box {
+    cursor: pointer;
+}
+
+.article-box h3 {
+    color: #8E06A8;
+}
+/* Estilizando os botões de volta */
+.back-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #8E06A8;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #6A047B;
+}
+

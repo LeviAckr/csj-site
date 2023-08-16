@@ -4,22 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Arigos da comunidade- CSJ-SERVER</title>
+    <link rel="stylesheet" href="css/artigs.css">
+    <title>Artigos da comunidade - CSJ-SERVER</title>
 </head>
 <body>
     <header>
         <!-- ... Seu cabeçalho ... -->
     </header>
     <main>
-        <section id="under-construction">
-            <h2>Arigos da comunidade - Em Desenvolvimento</h2>
-            <p>Estamos trabalhando duro para trazer conteúdo incrível de aulas de programação e artigos em breve. Fique ligado para as atualizações!</p>
+        <section id="articles">
+            <h2>Artigos da Comunidade</h2>
+            <div class="article-box" onclick="showArticleContent(1)">
+                <h3>📌 COMO FUNCIONA</h3>
+                <p>Como funciona os artigos</p>
+            </div>
+            <div class="article-box" onclick="showArticleContent(2)">
+                <h3>📌 PDP</h3>
+                <p>Cargos que podem publicar nos artigos <strong>(Até a versão 1.8)</strong</p>
+            </div>
+            <!-- Adicione mais boxes de artigos conforme necessário -->
         </section>
+
+        <section id="article-content" style="display: none;">
+            <h2 id="article-title"></h2>
+            <div id="article-text"></div>
+        </section>
+
+        <div class="back-buttons">
+            <a href="artigos.html" class="back-button">Voltar para Artigos</a>
+            <a href="index.html" class="back-button">Voltar para o Menu</a>
+        </div>
     </main>
     <footer>
-        <footer>
-            <p>&copy; 2023 CSJ - Crie seus Jogos Brasil</p>
-        </footer>
+        <p>&copy; 2023 CSJ - Crie seus Jogos Brasil</p>
     </footer>
+
+    <script src="src/main.js"></script>
 </body>
 </html>
