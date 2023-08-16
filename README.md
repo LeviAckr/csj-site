@@ -17,6 +17,16 @@ O Servidor CSJ é uma comunidade dedicada a entusiastas de programação e desen
 | Versão | Data       | Descrição                              |
 |--------|------------|----------------------------------------|
 | 1.0    | 2023-08-15 | `Lançamento inicial do site do CSJ`       |
+| 1.1    | 2023-08-15 | `conserto de bugs nav`       |
+| 1.2    | 2023-08-15 | `fix`       |
+| 1.3    | 2023-08-15 | `chore`       |
+| 1.4    | 2023-08-15 | `chore`       |
+| 1.5    | 2023-08-15 | `feat`       |
+| 1.6    | 2023-08-15 | `chore`       |
+| 1.7    | 2023-08-15 | `refactor`       |
+| 1.8    | 2023-08-15 | `style`       |
+| 1.9    | 2023-08-15 | `test`       |
+| 2.0    | 2023-08-15 | `feat`       |
 
 ## Como Contribuir
 
